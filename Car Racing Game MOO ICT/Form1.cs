@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Car_Racing_Game_MOO_ICT
@@ -129,8 +123,8 @@ namespace Car_Racing_Game_MOO_ICT
         private void changeAIcars(PictureBox tempCar)
         {
 
-            carImage = rand.Next(1, 9);
-
+            //carImage = rand.Next(1, 9); //commenting out this line to increase the number of overall cars the game can use
+            carImage = rand.Next(1, 15);
             switch (carImage)
             {
 
@@ -161,6 +155,25 @@ namespace Car_Racing_Game_MOO_ICT
                 case 9:
                     tempCar.Image = Properties.Resources.TruckWhite;
                     break;
+              case 10:
+                  tempCar.Image = Properties.Resources.;
+                  break;
+              case 11:
+                  tempCar.Image = Properties.Resources.;
+                  break;
+              case 12:
+                  tempCar.Image = Properties.Resources.;
+                  break;
+              case 13:
+                  tempCar.Image = Properties.Resources.;
+                  break;
+              case 14:
+                  tempCar.Image = Properties.Resources.;
+                  break;
+              case 15:
+                  tempCar.Image = Properties.Resources.;
+                  break;
+
             }
 
 
@@ -210,7 +223,7 @@ namespace Car_Racing_Game_MOO_ICT
             roadSpeed = 12;
             trafficSpeed = 15;
 
-            AI1.Top = carPosition.Next(200, 500) *-1;
+            AI1.Top = carPosition.Next(200, 500) * -1;
             AI1.Left = carPosition.Next(5, 200);
 
             AI2.Top = carPosition.Next(200, 500) * -1;
@@ -231,7 +244,7 @@ namespace Car_Racing_Game_MOO_ICT
         {
             System.Media.SoundPlayer playCrash = new System.Media.SoundPlayer(Properties.Resources.hit);
             playCrash.Play();
-            
+
         }
     }
 }
