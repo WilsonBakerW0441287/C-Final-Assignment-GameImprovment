@@ -126,9 +126,11 @@
     <None Include="Resources\TruckWhite.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\battleBus.png" />
+    <Content Include="Resources\carPurple.png" />
+    <Content Include="Resources\copCar.png" />
     <Content Include="Resources\horseDrawn1.png" />
     <Content Include="Resources\RocketShip.png" />
+    <Content Include="Resources\ufo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

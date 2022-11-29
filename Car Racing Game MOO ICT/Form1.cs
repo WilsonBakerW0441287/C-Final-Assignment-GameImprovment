@@ -124,10 +124,9 @@ namespace Car_Racing_Game_MOO_ICT
         {
 
             //carImage = rand.Next(1, 9); //commenting out this line to increase the number of overall cars the game can use
-            carImage = rand.Next(1, 15);
+            carImage = rand.Next(1, 13);
             switch (carImage)
             {
-
                 case 1:
                     tempCar.Image = Properties.Resources.ambulance;
                     break;
@@ -155,24 +154,19 @@ namespace Car_Racing_Game_MOO_ICT
                 case 9:
                     tempCar.Image = Properties.Resources.TruckWhite;
                     break;
-              case 10:
-                  tempCar.Image = Properties.Resources.battleBus;
-                  break;
-              case 11:
-                  tempCar.Image = Properties.Resources.horseDrawn1;
-                  break;
-              case 12:
-                  tempCar.Image = Properties.Resources.;
-                  break;
-              case 13:
-                  tempCar.Image = Properties.Resources.;
-                  break;
-              case 14:
-                  tempCar.Image = Properties.Resources.;
-                  break;
-              case 15:
-                  tempCar.Image = Properties.Resources.;
-                  break;
+                    //these are all custom images I added
+                case 10:
+                    tempCar.Image = Properties.Resources.RocketShip;
+                    break;
+                case 11:
+                    tempCar.Image = Properties.Resources.copCar;
+                    break;
+                case 12:
+                    tempCar.Image = Properties.Resources.ufo;
+                    break;
+                case 13:
+                    tempCar.Image = Properties.Resources.carPurple;
+                    break;
 
             }
 
