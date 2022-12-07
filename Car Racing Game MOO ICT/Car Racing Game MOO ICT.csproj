@@ -128,7 +128,9 @@
   <ItemGroup>
     <Content Include="Resources\carPurple.png" />
     <Content Include="Resources\copCar.png" />
+    <Content Include="Resources\Help.png" />
     <Content Include="Resources\horseDrawn1.png" />
+    <Content Include="Resources\Mcqueen.png" />
     <Content Include="Resources\RocketShip.png" />
     <Content Include="Resources\ufo.png" />
   </ItemGroup>
